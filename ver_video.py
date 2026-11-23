@@ -3,7 +3,7 @@ import importlib
 cv2 = importlib.import_module("cv2")
 
 
-video = cv2.VideoCapture("videos/twice_danca.mp4")
+video = cv2.VideoCapture("videos/blackpink_danca.mp4")
 
 while True:
     conseguiu_ler, frame = video.read()
